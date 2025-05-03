@@ -1,0 +1,47 @@
+.tableExcel {
+  tbody {
+    tr {
+      td {
+        transition: all 0.3s linear;
+        background-color: var(--bgWhite-color);
+      }
+      &:hover {
+        td {
+          background-color: rgb(231, 248, 251);
+        }
+      }
+    }
+  }
+  thead {
+    tr {
+      th {
+        background: #f6f6f6;
+      }
+    }
+  }
+}
+.tebleIdite {
+  td {
+    border-bottom: 2px solid #ff0000 !important;
+  }
+}
+.dark {
+  .tableExcel {
+    tbody {
+      tr {
+        &:hover {
+          td {
+            background-color: rgb(23, 26, 27);
+          }
+        }
+      }
+    }
+    thead {
+      tr {
+        th {
+          background: #161616;
+        }
+      }
+    }
+  }
+}
